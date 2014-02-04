@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://www.facebook.com/shpeuf.app.7"
+        id        = "shpe.first.app"
+        versionCode="B01" 
+        version   = "1.0.0">
+
+    <name>SHPE-UF App</name>
+
+    <description>
+         An app to keep up to date with the UF chapter of SHPE
+    </description>
+
+    <author href="http://www.facebook.com/shpeuf.app.7" email="shpeuf.app@gmail.com">
+       SHPE UF App team
+    </author>
+	
+	<icon src="imgs/SHPE_icon.png"/>
+	<icon src="imgs/SHPE_icon.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="icons/ios/icon.png" width="57" height="57" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="ios" width="72" height="72" />
+	<icon src="imgs/SHPE_icon.png" width="114" height="114" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="winphone" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="winphone" gap:role="background" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="webos" />
+	<icon src="imgs/SHPE_icon.png" gap:platform="webos" gap:role="mini" />
+	
+	<gap:splash src="SHPEsplash.png" />
+	<gap:splash src="SHPEsplash.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="SHPEsplash.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="SHPEsplash.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="SHPEsplash.png" gap:platform="android" gap:density="xhdpi" />
+	<gap:splash src="SHPEsplash.png" width="320" height="480" />
+	<gap:splash src="SHPEsplash.png" width="640" height="960" />
+	<gap:splash src="SHPEsplash.png" width="640" height="1136" />
+	<gap:splash src="SHPEsplash.png" width="1024" height="768" />
+	<gap:splash src="SHPEsplash.png" width="768" height="1024" />
+	
+	<preference name="exit-on-suspend" value="true" />
+	<preference name="show-splash-screen-spinner" value="true" />
+	<preference name="android-installLocation" value="auto" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="stay-in-webview" value="true" />
+	
+</widget>
